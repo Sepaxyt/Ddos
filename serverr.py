@@ -371,6 +371,6 @@ def broadcast_message(message):
 #bot.polling()
 while True:
     try:
-        remove bot.polling(none_stop=True)
+        bot.polling(none_stop=True)
     except Exception as e:
         print(e)
